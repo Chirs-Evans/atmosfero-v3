@@ -638,7 +638,15 @@ input[type=checkbox], input[type=radio] {
     -moz-transition: margin 0.2s ease-out;
     -o-transition: margin 0.2s ease-out;
     //transition: box-shadow 0.3s ease-out;
-
+    @media (max-width: @screen-sm) {
+      height: auto;
+      padding: 32px;
+    }
+    .card-text {
+      @media (max-width: @screen-sm) {
+        text-align: left;
+      }
+    }
     a {
       color: @text-color;
       &:hover {
@@ -649,7 +657,7 @@ input[type=checkbox], input[type=radio] {
       margin-top: -10px;
       box-shadow: 0 36px 52px 0 rgba(0, 0, 0, 0.14);
     }
-    &.active{
+    &.active {
       margin-top: -10px;
       box-shadow: 0 36px 52px 0 rgba(0, 0, 0, 0.14);
     }

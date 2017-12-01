@@ -1,7 +1,9 @@
 #home {
   .intro-section {
     position: relative;
-    min-height: 80%;
+    height: 80%;
+    min-height: 530px;
+    max-height: 530px;
     padding: 100px 0 0 0;
     overflow: hidden;
     background-color: @blue-atmosfero;
@@ -10,6 +12,9 @@
     background-size: cover;
     -o-background-size: cover;
     .description {
+    }
+    @media (max-width: @screen-sm) {
+    text-align: center;
     }
   }
 

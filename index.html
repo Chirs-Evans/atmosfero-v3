@@ -35,8 +35,31 @@
                         <li>
                             <a class="page-scroll" href="#features">Conheça</a>
                         </li>
-                        <li>
-                            <a class="page-scroll" href="#pricing">Preços</a>
+                        <li class="ml-md dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                               aria-expanded="false">Produtos
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">
+                                        <img src="img/icones/nuvem-grerenciada-w-md.png" width="40" class="img mr-sm">
+                                        Nuvem gerenciada
+                                    </a>
+                                </li>
+                                <li class="mt-md">
+                                    <a href="#">
+                                        <img src="img/icones/migracao-w-md.png" width="40" class="img mr-sm">
+                                        Migração
+                                    </a>
+                                </li>
+                                <li class="mt-md">
+                                    <a href="#">
+                                        <img src="img/icones/monitoramento-w-md.png" width="40" class="img mr-sm">
+                                        Monitoramento
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                         <li>
                             <a class="page-scroll" href="#">Blog</a>
@@ -47,135 +70,126 @@
                         <li>
                             <a class="login" href="#">Login</a>
                         </li>
-                        <li class="ml-md dropdown navbar-right">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                               aria-expanded="false"><img src="img/outros/pt_BR.png" style="height: 18px;" class="img">
-                                <span class="caret"></span>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#"
-                                       onclick="mojarra.jsfcljs(document.getElementById('j_idt19'),{'j_idt19:j_idt23':'j_idt19:j_idt23'},'');return false"><img
-                                        src="img/outros/en.png" style="height: 18px; padding-right: 5px;" class="img">
-                                    English
-                                </a>
-                                </li>
-                                <li><a href="#"
-                                       onclick="mojarra.jsfcljs(document.getElementById('j_idt19'),{'j_idt19:j_idt27':'j_idt19:j_idt27'},'');return false"><img
-                                        src="img/outros/pt_BR.png" style="height: 18px; padding-right: 5px;" class="img">
-                                    Português
-                                </a>
-                                </li>
-                            </ul>
-                        </li>
+                    
                     </ul>
                 </div>
             </div>
         </nav>
         
         <header id="intro" class="intro-section bck-gr-blue" data-type="background" data-speed="20">
+            <div class="element-visual">
+                <div class="pos-relative">
+                    <img class="img-adaptative rellax pos-absolute" data-rellax-speed="7" data-rellax-percentage="0" src="img/outros/baloon-cloud-bottom.png" style="left:0; top:40%;">
+                    <img class="img-adaptative rellax" data-rellax-speed="3" data-rellax-percentage="-3" src="img/outros/baloon.png">
+                    <img class="img-adaptative rellax pos-absolute" data-rellax-speed="-1" data-rellax-percentage="5" src="img/outros/baloon-cloud-top.png" style="left:0;">
+                </div>
+            </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-5 col-sm-offset-1 text-white">
+                    <div class="col-sm-4 col-sm-offset-1 text-white">
                         <h2 class="mt-xl pt-xl">Sua vida mais simples</h2>
                         <p class="mt-md">Atmosfero simplificou a utlização dos bancos de dados da amazon, poupando tempo e custos, com segurança</p>
                     </div>
-                    <div class="col-sm-5 col-sm-offset-1 text-center">
-                        <div class="pos-relative">
-                            <img class="img-adaptative rellax pos-absolute" data-rellax-speed="7" data-rellax-percentage="0" src="img/outros/baloon-cloud-bottom.png" style="left:0; top:40%;">
-                            <img class="img-adaptative rellax" data-rellax-speed="3" data-rellax-percentage="-3" src="img/outros/baloon.png">
-                            <img class="img-adaptative rellax pos-absolute" data-rellax-speed="-1" data-rellax-percentage="5" src="img/outros/baloon-cloud-top.png" style="left:0;">
+                    
+                    <div class="col-sm-5 col-sm-offset-1 ">
+                        
+                        <div class="detalhes-intro">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="card">
+                                        <div class="card-one">
+                                            <div class="row">
+                                                <div class="col-xs-4 text-center">
+                                                    <a href="nuvem-gerenciada.html">
+                                                        <img class="img-adaptative" src="img/icones/nuvem-grerenciada-c-sm.png">
+                                                    </a>
+                                                </div>
+                                                <div class="col-xs-8 card-text">
+                                                    <a href="nuvem-gerenciada.html">
+                                                        <h4>Nuvem gerenciada</h4>
+                                                        <p class="mt-xs">Lorem ipsum dolor sit amet, consectetur</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="card">
+                                        <div class="card-one">
+                                            <div class="row">
+                                                <div class="col-xs-4 text-center">
+                                                    <a href="migracao.html">
+                                                        <img class="img-adaptative" src="img/icones/migracao-c-sm.png">
+                                                    </a>
+                                                </div>
+                                                <div class="col-xs-8">
+                                                    <a href="migracao.html">
+                                                        <h4>Migração</h4>
+                                                        <p class="mt-xs">Lorem ipsum dolor sit amet, consectetur</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="card">
+                                        <div class="card-one">
+                                            <div class="row">
+                                                <div class="col-xs-4 text-center">
+                                                    <a href="monitoramento.html">
+                                                        <img class="img-adaptative" src="img/icones/monitoramento-c-sm.png">
+                                                    </a>
+                                                </div>
+                                                <div class="col-xs-8 card-text">
+                                                    <a href="monitoramento.html">
+                                                        <h4>Monitoramento</h4>
+                                                        <p class="mt-xs">Lorem ipsum dolor sit amet, consectetur</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
                         </div>
+                    
                     </div>
+                
+                
                 </div>
             </div>
         
         </header>
-        <div class="detalhes-intro bck-light-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4 text-center">
-                        <div class="card">
-                            <div class="card-one">
-                                <div class="row">
-                                    <div class="col-xs-4 col-sm-12">
-                                        <a href="nuvem-gerenciada.html">
-                                            <img class="img-adaptative" src="img/icones/nuvem-grerenciada-c-sm.png">
-                                        </a>
-                                    </div>
-                                    <div class="col-xs-8 col-sm-12 card-text">
-                                        <a href="nuvem-gerenciada.html">
-                                            <h4 class="mt-md">Nuvem gerenciada</h4>
-                                            <p class="mt-xs">Lorem ipsum dolor sit amet, consectetur</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 text-center">
-                        <div class="card">
-                            <div class="card-one">
-                                <div class="row">
-                                    <div class="col-xs-4 col-sm-12">
-                                        <a href="migracao.html">
-                                            <img class="img-adaptative" src="img/icones/migracao-c-sm.png">
-                                        </a>
-                                    </div>
-                                    <div class="col-xs-8 col-sm-12 card-text">
-                                        <a href="migracao.html">
-                                            <h4 class="mt-md">Migração</h4>
-                                            <p class="mt-xs">Lorem ipsum dolor sit amet, consectetur</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 text-center">
-                        <div class="card">
-                            <div class="card-one">
-                                <div class="row">
-                                    <div class="col-xs-4 col-sm-12">
-                                        <a href="monitoramento.html">
-                                            <img class="img-adaptative" src="img/icones/monitoramento-c-sm.png">
-                                        </a>
-                                    </div>
-                                    <div class="col-xs-8 col-sm-12 card-text">
-                                        <a href="monitoramento.html">
-                                            <h4 class="mt-md">Monitoramento</h4>
-                                            <p class="mt-xs">Lorem ipsum dolor sit amet, consectetur</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
         <section class="subscribe">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-md-offset-3">
-                        <div class="mt-md text-center">
-                            <h2>Saiba mais</h2>
+                    <div class="col-md-6">
+                        <div class="mt-md">
+                            <h3>Saiba mais</h3>
                             <p>Deixe seu email, e nós entramos em contato </p>
-                            <form class="form-group subscribe-form">
-                                <div class="clearfix">
-                                    <div class="input-group">
-                                        <input type="text" class="form-control big-input" placeholder="Seu e-mail">
-                                        <span class="input-group-btn">
+                        
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <form class="form-group subscribe-form">
+                            <div class="clearfix">
+                                <div class="input-group">
+                                    <input type="text" class="form-control big-input" placeholder="Seu e-mail">
+                                    <span class="input-group-btn">
                                         <button class="btn btn-warning" type="button">enviar</button>
                                       </span>
-                                    </div>
                                 </div>
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox"> Receber atualizações do atmosfero
-                                    </label>
-                                </div>
-                            </form>
-                        </div>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> Receber atualizações do atmosfero
+                                </label>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>

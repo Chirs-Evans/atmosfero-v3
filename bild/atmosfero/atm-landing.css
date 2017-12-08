@@ -1,0 +1,6 @@
+.landing-page {
+  position: relative;
+}
+.landing-page .intro-section {
+  min-height: 100% !important;
+}

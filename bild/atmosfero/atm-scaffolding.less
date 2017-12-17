@@ -639,6 +639,9 @@ input[type=checkbox], input[type=radio] {
     border-radius: 16px;
     padding: 32px;
     height: calc(100% / 3 - 27px);
+    @media (max-width: @screen-sm) {
+      padding: 16px;
+    }
 
     margin: 16px 0;
     //color: @text-color;
@@ -648,7 +651,7 @@ input[type=checkbox], input[type=radio] {
     //transition: box-shadow 0.3s ease-out;
     @media (max-width: @screen-sm) {
       height: auto;
-      padding: 32px;
+      padding: 16px;
     }
     .card-text {
       @media (max-width: @screen-sm) {
@@ -709,6 +712,10 @@ input[type=checkbox], input[type=radio] {
   height: 100px;
   padding: 16px;
   border-radius: 50%;
+  @media (max-width: @screen-sm) {
+    width: 80px;
+    height: 80px;
+  }
 }
 
 
